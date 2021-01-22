@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    position: relative;
+    width: auto;
+    border: 5px solid black;
+    height: 60px;
+    background-color: gray;
+    color:black;
+    margin: 10px;
+   
+}
+h1{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 10px;
+    font-weight: 40px;
+}
+.parteFrontal{
+  position: relative;
+  margin: auto;
+  width:300px;
+  height: 500px;
+  background-image: url(/img/backgroud\ red.jpg);
+  border: 10px solid darkred;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+}
+.bordePantalla{
+    flex-direction: row;
+    background-color:#17202A;
+    width: 290px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-bottom-left-radius:8px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:30px;
+    
+}
+.pantalla{
+    
+    width: 240px;
+    height: 210px;
+    background-color: black;
+    border-right:solid 10px  #283747  ;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    
+}
+#black{
+    
+    position: absolute;
+    z-index: 10;
+}
+#street{
+    
+    position: absolute;
+    z-index: 9;
+}
+.flechas{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/Flechas.jpg);
+    background-size: contain;
+    display: flex;
+   }
+
+.uno{ background-image: url(/img/backgroud\ red.jpg);}
+.tres{ background-image: url(/img/backgroud\ red.jpg);}
+.siete{background-image: url(/img/backgroud\ red.jpg);}
+.nueve{background-image: url(/img/backgroud\ red.jpg);}
+#cinco{background-image: url(/img/backgroud\ red.jpg);}
+
+#dos{ 
+    background-image: url(/img/BOTON\ X.jpg);
+    background-size: cover;
+}
+
+#cuatro{ 
+    background-size: cover;
+    background-image: url(/img/BOTON\ Y.jpg);
+}
+#seis{
+    background-size: cover;
+    background-image: url(/img/boton\ A.jpg);
+}
+#ocho{
+    background-size: cover;
+    background-image: url(/img/boton\ B.jpg);
+}
+
+.botones{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 180px;
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/backgroud\ red.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+.botones div{
+    border-radius: 50%;
+    background-color: #161515;
+}
+
+.botonesSelectStart{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 60px;
+    width: 105px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(/img/Select\ and\ start.jpg);
+    background-size: contain;
+    
+}
+.reset{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 120px;
+    width: 45px;
+    height: 45px;
+    background-image: url(/img/boton\ Reset.jpg);
+    background-size: cover;
+}
+
+.rejilla{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/Rejillas\ del\ audio.jpg);
+    background-size: auto;
+    margin-top: 400px;
+    margin-left: 200px;
+}
+.powerOn{
+    position: absolute;
+    background-color: rgba(71, 67, 67 ,0.8);
+    width: 25px;
+    height: 15px;
+    margin-top: 2px;
+    margin-left: 240px;
+    border-radius: 5px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.powerOff {
+    position: absolute;
+    background-color: rgba(71, 67, 67 ,0.8);
+    width: 25px;
+    height: 15px;
+    margin-top: 2px;
+    margin-left: 200px;
+    border-radius: 5px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+
+} 
+span{
+    display: flex;
+    color:white;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+#chivato{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 170px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:rgba(63, 62, 61, 0.637);
+}
+.pantalla:hover{
+    background-image:url(/img/SSFII_title_screen.gif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
